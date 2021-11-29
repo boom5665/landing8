@@ -1,0 +1,108 @@
+.register{
+    .AMB-head-contact {
+        text-transform: uppercase;
+        background: radial-gradient(50% 50% at 50% 50%, #026DE1 0%, #000000 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 20px;
+    }
+        .form-regis {
+        padding: 30px 145px 157px 145px;
+    }
+    .AMB-background {
+        background: linear-gradient(180deg, #6481BD 0%, #3A5389 100%);
+        position: relative;
+        box-sizing: border-box;
+        color: #FFF;
+        background-clip: padding-box;
+        border: solid 3px transparent;
+        border-radius: 5px;
+    }
+    .AMB-background:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        margin: -3px;
+        border-radius: inherit;
+        background: linear-gradient(to bottom, #FDEEC8, #8D7748);
+    }
+    .AMB-reward {
+        padding: 1.5625vmax;
+    }
+    .re-input, .re-select {
+        padding: 12px 18px;
+        width: 100%;
+        font-size: 20px;
+        border: 1px solid #8692A6;
+        border-radius: 7px;
+        color: #000;
+    }
+    select.minimal {
+        background-image: linear-gradient(
+    45deg, transparent 50%, gray 50%), linear-gradient(
+    135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
+        background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+        background-size: 5px 5px, 5px 5px, 0px 0em;
+        background-repeat: no-repeat;
+    }
+    select.minimal {
+        background-color: #fff;
+    }
+    .re-input, .re-select {
+        padding: 12px 18px;
+        width: 100%;
+        font-size: 20px;
+        border: 1px solid #8692A6;
+        border-radius: 7px;
+        color: #000;
+    }
+    select {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+    }
+    .btn.btn-regis {
+        background: linear-gradient(
+    180deg, #3A5389  0%, #3A5389  100%);
+    }
+    .button-group .btn {
+        max-width: 250px;
+        font-size: 32px;
+        padding: 13px;
+        color: #fff;
+        border-radius: 10px;
+        border-color: transparent;
+    }
+    .AMB-contact-line {
+        margin-top: 10px;
+    }
+    .row-mar {
+        margin-top: 30px;
+    }
+    ul.AMB-sidebar-contact {
+        list-style-image: url(../images/arrow-rigth.png);
+        margin-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    ul.AMB-sidebar-contact>li {
+        vertical-align: middle;
+        padding: 10px 5px;
+    }
+    ul.AMB-sidebar-contact li:hover {
+        list-style-image: url(../images/arrow-rigth-hover.png);
+    }
+    .AMB-sidebar-link {
+        font-size: 20px;
+        font-weight: 300;
+        color: #fff;
+        line-height: 10px;
+        vertical-align: top;
+    }
+}
